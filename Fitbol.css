@@ -1,229 +1,214 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-.food-munch-logo {
-  width: 80px;
-  height: 70px;
+#header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
 }
-#navItem1 {
-  color: #323f4b;
-  font-family: "Roboto";
+
+.navbar{
+    padding: 50px 0;
+
 }
-#navItem2 {
-  color: #323f4b;
-  font-family: "Roboto";
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #ccc !important;
 }
-#navItem3 {
-  color: #323f4b;
-  font-family: "Roboto";
+
+.nav-item{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 50px;
 }
-#navItem4 {
-  color: #323f4b;
-  font-family: "Roboto";
+
+.navbar-item{
+    font-size: 14px;
 }
-.banner-section-bg-container {
-  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
-  height: 100vh;
-  background-size: cover;
+
+.nav-link{
+    color: #ccc!important;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: 700;
 }
-.banner-heading {
-  color: white;
-  font-family: "Roboto";
-  font-size: 45px;
-  font-weight: 300;
+
+.nav-link:hover{
+    background: #dcdde1 !important;
+    color: #262626 !important;
+    border-radius: 5px;
+    transition: all 0.6s ease 0s;
 }
-.banner-caption {
-  color: #f5f7fa;
-  font-family: "Roboto";
-  font-size: 24px;
-  font-weight: 300;
+
+.main{
+    position: relative;
+    background: url("https://onnitacademy.imgix.net/2016/07/Battlerope.jpg")
+    repeat fixed 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    padding: 280px 0 220px;
+    color: #ffffff;
 }
-.custom-button {
-  color: white;
-  background-image: linear-gradient(#d0b200, #a58d00);
-  width: 130px;
-  height: 45px;
-  border-width: 0;
-  border-radius: 8px;
-  margin-right: 10px;
+
+.main .h2{
+    font-family: Roboto;
+    font-size:1.7em;
+    color: #dcdde1;
+    text-transform: uppercase;
+    font-weight: bold;
 }
-.custom-outline-button {
-  color: #d0b200;
-  background-color: transparent;
-  width: 130px;
-  height: 45px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #d0b200;
-  border-radius: 8px;
+
+.main .button{
+    border-radius: 0 !important;
+    margin-right: 10px;
+    text-align: left !important;
 }
-.wcu-section {
-  background-color: #f9fbfe;
+
+.main .button-2{
+    background: transparent;
+    color: #ffffff !important;
+    border-radius: 0px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: #ffffff;
+    text-align: left !important;
+
 }
-.wcu-section-heading {
-  color: #183b56;
-  font-family: "Roboto";
-  font-size: 28px;
-  font-weight: 700;
+
+.home-equipment-section1{
+    background-image: url("https://i.pinimg.com/originals/04/1d/e7/041de75ebe409fe6b791c321e2fd4092.jpg");
+    padding: 20px;
+    background-size: cover;
+    height: 510px;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
-.wcu-section-description {
-  color: #5a7184;
-  font-family: "Roboto";
-  font-size: 16px;
+
+.home-equipment-section2{
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/body-builder-lifting-weights-royalty-free-image-699333146-1556662804.jpg");
+    padding: 20px;
+    background-size: cover;
+    height: 510px;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
-.wcu-card {
-  text-align: center;
-  background-color: white;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #e5eaf4;
-  border-radius: 16px;
+
+.home-equipment-section3{
+    background-image: url("https://i.pinimg.com/originals/74/6a/14/746a14e0a915f6251b68aa102a072158.jpg");
+    padding: 20px;
+    background-size: cover;
+    height: 510px;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
-.wcu-card-image {
-  width: 87px;
-  height: 90px;
+
+.featured-products-background{
+    background-color: rgb(231, 228, 228);
+    padding: 10px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
 }
-.wcu-card-title {
-  color: #323f4b;
-  font-family: "Roboto";
-  font-size: 22px;
-  font-weight: 500;
+
+.featured-product-image{
+    height: 80%;
+    width: 100%;
+    margin-bottom: 10px;
 }
-.wcu-card-description {
-  color: #7b8794;
-  font-family: "Roboto";
-  font-size: 16px;
+
+.featured-product-section{
+    margin-bottom: 80px;
+    margin-top: 60px;
 }
-.offers {
-  color: #323f4b;
-  font-style: italic;
-  font-weight: 600;
+
+.featured-product-section h6{
+    font-size: 20px;
+} 
+
+.featured-product-section p{
+    font-size: 15px;
+    color: grey;
+} 
+
+.limited-section{
+    position: relative;
+    background: url("https://img.freepik.com/free-photo/strong-athletic-muscular-man_136403-7288.jpg?size=626&ext=jpg")
+    repeat fixed 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    padding-left: 60px;
+    color: #ffffff;
+    margin-left: 25px;
+    margin-right: 25px;
 }
-.explore-menu-section {
-  background-color: white;
+
+.our-facilities{
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-.menu-section-heading {
-  color: #183b56;
-  font-family: "Roboto";
-  font-size: 28px;
-  font-weight: 700;
+
+
+.our-facilities h3{
+    margin-bottom: 20px;
 }
-.menu-item-image {
-  border-radius: 16px;
+
+
+.down-bg{
+    background-color: white;
+    padding-top: 50px;
 }
-.menu-card-title {
-  color: #323f4b;
-  font-family: "Roboto";
-  font-size: 18px;
-  font-weight: 500;
-  margin-top: 24px;
+
+
+.list{
+    list-style-type: none;
 }
-.menu-item-link {
-  color: #d0b200;
-  font-family: "Roboto";
-  font-size: 14px;
-  font-weight: 500;
+
+.QuickLink{
+    color: black;
 }
-.menu-item-card {
-  border-radius: 16px;
+
+span{
+    color: black;
 }
-.healthy-food-section {
-  background-color: #f9fbfe;
+
+.hline{
+    border-top: 2px solid black;
+    width: 250px;
 }
-.healthy-food-section-img {
-  width: 270px;
+
+.carousel-item{
+    height: 32rem;
+    color: black;
+    position: relative;
 }
-.healthy-food-section-heading {
-  color: #183b56;
-  font-family: "Roboto";
-  font-size: 28px;
-  font-weight: 700;
+
+.carousel-container{
+    position : absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
 }
-.healthy-food-section-description {
-  color: #5a7184;
-  font-family: "Roboto";
-  font-size: 16px;
-}
-.delivery-and-payment-section {
-  background-color: white;
-}
-.delivery-and-payment-section-img {
-  width: 270px;
-}
-.delivery-and-payment-section-heading {
-  color: #183b56;
-  font-family: "Roboto";
-  font-size: 28px;
-  font-weight: 700;
-}
-.delivery-and-payment-section-description {
-  color: #5a7184;
-  font-family: "Roboto";
-  font-size: 16px;
-}
-.payment-card-img {
-  width: 50px;
-  height: 50px;
-  margin-right: 28px;
-}
-.thanking-customers-section {
-  background-image: radial-gradient(#fff8db, #fae38c);
-}
-.thanking-customers-section-heading {
-  color: #183b56;
-  font-family: "Roboto";
-  font-size: 28px;
-  font-weight: 700;
-}
-.thanking-customers-section-description {
-  color: #5a7184;
-  font-family: "Roboto";
-  font-size: 16px;
-}
-.thanking-customers-section-img {
-  width: 270px;
-  margin-bottom: 20px;
-}
-.thanking-customers-section-modal-title {
-  color: #d0b200;
-  font-weight: 800;
-}
-.follow-us-section {
-  background-color: white;
-}
-.follow-us-section-heading {
-  text-align: center;
-  color: #183b56;
-  font-family: "Roboto";
-  font-size: 28px;
-  font-weight: 700;
-}
-.follow-us-icon-container {
-  background-color: #faf7e8;
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
-  margin: 15px;
-  padding-top: 22px;
-  padding-bottom: 14px;
-  padding-right: 16px;
-  padding-left: 22px;
-}
-.icon {
-  color: #d0b200;
-  font-size: 35px;
-}
-.footer-section {
-  background-color: #0d2436;
-}
-.footer-section-mail-id {
-  color: #959ead;
-  font-family: "Roboto";
-  font-weight: bold;
-  font-size: 16px;
-  margin-top: 20px;
-}
-.footer-section-address {
-  color: #959ead;
-  font-family: "Roboto";
-  font-size: 14px;
-}
+/* 
+.home-equipment-button{
+    
+} */
+
